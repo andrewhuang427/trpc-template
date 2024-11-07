@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
 import "./globals.css";
-import { TRPCProvider } from "../trpc/TRPCProvider";
+
+import type { Metadata } from "next";
+import { TRPCProvider } from "../trpc/Provider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
